@@ -1,1 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
 venv/
+env/
+ENV/
+.venv/
+
+# Django specific
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+*.env
+
+# VS Code settings (optional, if you use VS Code)
+.vscode/
+
+# PyCharm settings (optional, if you use PyCharm)
+.idea/
+
+# Migrations (optional — depends)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Git itself
+.git/
