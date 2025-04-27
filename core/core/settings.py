@@ -92,7 +92,7 @@ DATABASES = {
     },
 }
 
-DATABASE_ROUTERS = ['users.routers.AuthRouter', ]
+DATABASE_ROUTERS = ['users.routers.AuthRouter', 'listings.routers.ListingRouter', ]
 
 
 # Password validation
